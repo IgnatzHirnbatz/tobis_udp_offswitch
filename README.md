@@ -4,8 +4,8 @@ Tobis UDP-Off-Switch
 Wechsel mit der Eingabeaufforderung in das Verzeichnis in das du diese 
 Dateien geklont/heruntergeladen hast und führe folgenden Befehle aus:   
 
-
-> ### npm install
+### Installiert die Abhängigkeiten
+> npm install
 
 > ### npm run server
 
