@@ -4,8 +4,8 @@
   "description": "Tobis UDP-Off-Switch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/udp_server.js"
+    "client": "node client/udp_client.js",
+    "server": "node server/udp_server.js"
   },
   "keywords": [],
   "author": "",

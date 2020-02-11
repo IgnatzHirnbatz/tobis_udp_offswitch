@@ -1,10 +1,12 @@
 let udp = require('dgram');
 
+// Serverport einstellen
 const serverPort = 2222;
-let client = udp.createSocket('udp4');
 
 // Hier kannst du Daten versenden falls notwendig
 let data = "fooBar";
+
+let client = udp.createSocket('udp4');
 
 client.send(data, serverPort, 'localhost', function (error) {
     if (error) {
