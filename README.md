@@ -10,7 +10,7 @@ Installiert alle Abhängigkeiten
 Startet den UDP-Server
 ### npm run start
 
-(Optional) Testet die Verbindung
+Testet die Verbindung
 ### npm run test
 
 Danach läuft der Server auf dem von dir eingestellten Port (server/udp_server.js).
