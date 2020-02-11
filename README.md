@@ -8,9 +8,11 @@ Dateien geklont/heruntergeladen hast und führe folgenden Befehle aus:
 
 `npm install`
 
-> ### npm run server
+> Startet den UDP-Server
+`npm run server`
 
-> ### npm run client
+> Testet die Verbindung
+`npm run client`
 
 Danach läuft der Server auf dem von dir eingestellten Port (server/udp_server.js).
 Konnte die Wintools leider nicht testen. 
