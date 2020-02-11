@@ -1,0 +1,17 @@
+{
+  "name": "tobi_udp",
+  "version": "1.0.0",
+  "description": "Tobis UDP-Off-Switch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/udp_server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "wintools": "^0.1.0"
+  }
+}
